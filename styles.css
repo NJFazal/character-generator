@@ -10,17 +10,19 @@ body {
     justify-content: center;
     align-items: center;
     background: url('images/parchment.png') center/cover no-repeat;
+    background-size: cover; 
 }
 
 .content {
     background: hsla(0, 0%, 100%, 0.192); 
-    padding: 10px; 
+    padding: 10px;
     border: 2px solid #aa8545;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    max-width: 800px;
+    max-width: 90%; 
     text-align: center;
-    margin: 20px; 
+    margin: 20px;
+    box-sizing: border-box; 
 }
 
 .card, .table, .form-control {
@@ -45,7 +47,7 @@ p {
 .container {
     position: relative;
     background-color: none;
-    padding-bottom: 60px; 
+    padding-bottom: 60px;
 }
 
 .refresh-button {
@@ -65,17 +67,35 @@ p {
 }
 
 .mt-5 {
-    margin-top: 100px; 
+    margin-top: 100px;
 }
 
+
 table, th, td, .card {
-    border: transparent;
+    border: none;
 }
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1em;
+    }
+}
+
+
+@font-face {
+    font-family: "Jaini";
+    src: url("path/to/jaini.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
 .jaini-regular {
     font-family: "Jaini", system-ui;
     font-weight: 400;
     font-style: normal;
   }
-  
-  
   
