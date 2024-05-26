@@ -1,0 +1,81 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background: #f2e6d9;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('images/parchment.png') center/cover no-repeat;
+}
+
+.content {
+    background: hsla(0, 0%, 100%, 0.192); 
+    padding: 10px; 
+    border: 2px solid #aa8545;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    text-align: center;
+    margin: 20px; 
+}
+
+.card, .table, .form-control {
+    background-color: transparent;
+}
+
+.input-group-text {
+    background-color: #aa8545;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #6b4a2b;
+    text-shadow: 2px 2px #aa8545;
+}
+
+p {
+    font-size: 1.2em;
+    color: #4a2e19;
+}
+
+.container {
+    position: relative;
+    background-color: none;
+    padding-bottom: 60px; 
+}
+
+.refresh-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #420592;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.refresh-button:hover {
+    background-color: #420592;
+}
+
+.mt-5 {
+    margin-top: 100px; 
+}
+
+table, th, td, .card {
+    border: transparent;
+}
+.jaini-regular {
+    font-family: "Jaini", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  
