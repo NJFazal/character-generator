@@ -7,7 +7,7 @@ function createCharacter(){
             "Liebling"
     ];
     let lastNames = [
-        "Fazal",
+        "McMeowmers",
         "De La Scratchpost",
         "Van Dumpster",
         "The Squishy",
