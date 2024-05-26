@@ -3,6 +3,8 @@ body, html {
     margin: 0;
     font-family: 'Times New Roman', Times, serif;
     background: #f2e6d9;
+    overflow-x: hidden; 
+    overflow-y: auto; 
 }
 
 body {
@@ -23,6 +25,8 @@ body {
     text-align: center;
     margin: 20px;
     box-sizing: border-box; 
+    position: relative; 
+    z-index: 1; 
 }
 
 .card, .table, .form-control {
@@ -75,24 +79,43 @@ table, th, td, .card {
     border: none;
 }
 
+@media (max-width: 1200px) {
+    .content {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 992px) {
+    .content {
+        max-width: 95%;
+    }
+}
 
 @media (max-width: 768px) {
+    .content {
+        max-width: 100%;
+        margin: 10px;
+        padding: 8px;
+    }
+    
     h1 {
         font-size: 2em;
     }
+    
     p {
         font-size: 1em;
     }
 }
 
-
-@font-face {
-    font-family: "Jaini";
-    src: url("path/to/jaini.woff") format("woff");
-    font-weight: 400;
-    font-style: normal;
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    
+    p {
+        font-size: 0.9em;
+    }
 }
-
 .jaini-regular {
     font-family: "Jaini", system-ui;
     font-weight: 400;

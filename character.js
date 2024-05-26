@@ -147,19 +147,22 @@ function createCharacter(){
     <div class="container">
     <div class="row">
         <div class="col-md-6">
-            <div class="card mb-3" style="border: none">
-                <div class="input-group mb-3">
-                    <div>
-                        <span class="input-group-text" id="inputGroup-sizing-default" style="font-weight: bold; color: black">Character Name</span>
-                    </div>
-                    <div type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">${randomFirstName} ${randomLastName}</div>
-                </div>
-                <div class="input-group mb-3">
-                    <div>
-                        <span class="input-group-text" id="inputGroup-sizing-default" style="font-weight: bold; color: black">Background</span>
-                    </div>
-                    <div type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">${randomBackground}</div>
-                </div>
+        <div class="card mb-3" style="border: none">
+        <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row" style="font-weight: bold; color: black; background-color: #aa8545; border-radius: 5px;">Character Name</th>
+                            <td>${randomFirstName} ${randomLastName}</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" style="font-weight: bold; color: black;background-color: #aa8545; border-radius: 5px;">Background</th>
+                            <td>${randomBackground}</td>
+                            <td></td>
+                        </tr>
+                        </tbody>
+                        </table>
+          
                 <table class="table">
                     <tbody>
                         <tr>
