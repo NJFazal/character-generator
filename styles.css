@@ -93,7 +93,7 @@ table, th, td, .card {
 
 @media (max-width: 768px) {
     .content {
-        max-width: 100%;
+        max-width: 90%;
         margin: 10px;
         padding: 8px;
     }
