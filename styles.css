@@ -16,11 +16,7 @@ body {
 }
 
 .content {
-    background: hsla(0, 0%, 100%, 0.192); 
     padding: 10px;
-    border: 2px solid #aa8545;
-    border-radius: 15px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     max-width: 90%; 
     max-height: 90%;
     text-align: center;
