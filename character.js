@@ -173,22 +173,22 @@ function createCharacter(){
                         <tr>
                             <th scope="row" style="font-weight: bold; color: black; background-color: #aa8545; border-radius: 5px;">Strength</th>
                             <td>${randomStrength}</td>
-                            <td></td>
+                            <td><input type="text" class="form-control" placeholder="Str"  aria-describedby="basic-addon1"></td>
                         </tr>
                         <tr>
                             <th scope="row" style="font-weight: bold; color: black;background-color: #aa8545; border-radius: 5px;">Dexterity</th>
                             <td>${randomDextarity}</td>
-                            <td></td>
+                            <td><input type="text" class="form-control" placeholder="Dex"  aria-describedby="basic-addon1"></td>
                         </tr>
                         <tr>
                             <th scope="row" style="font-weight: bold; color: black;background-color: #aa8545; border-radius: 5px;">Will</th>
                             <td>${randomWill}</td>
-                            <td></td>
+                            <td><input type="text" class="form-control" placeholder="Will"  aria-describedby="basic-addon1"></td>
                         </tr>
                         <tr>
                             <th scope="row" style="font-weight: bold; color: black;background-color: #aa8545; border-radius: 5px;">HP</th>
                             <td>${randomHP}</td>
-                            <td></td>
+                            <td><input type="text" class="form-control" placeholder="Current HP" aria-describedby="basic-addon1"></td>
                         </tr>
                     </tbody>
                 </table>
@@ -235,6 +235,13 @@ function createCharacter(){
                             <td>${randomAdditionalItems}</td>
                             <td>${randomSpecialAbilities}</td>
                             <td>${randomCoin}</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><textarea class="form-control" aria-label="With textarea" placeholder="keep track here"></textarea></td>
+                            <td><textarea class="form-control" aria-label="With textarea" placeholder="keep track here"></textarea></td>
+                            <td><textarea class="form-control" aria-label="With textarea" placeholder="keep track here"></textarea></td>
+                            <td><textarea class="form-control" aria-label="With textarea" placeholder="coins"></textarea></td>
                         </tr>
                     </tbody>
                 </table>
