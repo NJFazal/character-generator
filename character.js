@@ -223,7 +223,7 @@ function createCharacter(){
                         <tr>
                             <th scope="col" style="font-weight: bold; color: black;"></th>
                             <th scope="col" style="font-weight: bold; color: black;">Inventory</th>
-                            <th scope="col" style="font-weight: bold; color: black;">Additional Items</th>
+                            <th scope="col" style="font-weight: bold; color: black;">Special Items</th>
                             <th scope="col" style="font-weight: bold; color: black;">Special Abilities</th>
                             <th scope="col" style="font-weight: bold; color: black;">Coin</th>
                         </tr>
