@@ -238,10 +238,10 @@ function createCharacter(){
                         </tr>
                         <tr>
                             <td></td>
-                            <td><textarea class="form-control" aria-label="With textarea" placeholder="keep track here"></textarea></td>
-                            <td><textarea class="form-control" aria-label="With textarea" placeholder="keep track here"></textarea></td>
-                            <td><textarea class="form-control" aria-label="With textarea" placeholder="keep track here"></textarea></td>
-                            <td><textarea class="form-control" aria-label="With textarea" placeholder="coins"></textarea></td>
+                            <td><textarea class="form-control" aria-label="With textarea" placeholder="🗡️"></textarea></td>
+                            <td><textarea class="form-control" aria-label="With textarea" placeholder="🫘"></textarea></td>
+                            <td><textarea class="form-control" aria-label="With textarea" placeholder="🛡️"></textarea></td>
+                            <td><textarea class="form-control" aria-label="With textarea" placeholder="🪙"></textarea></td>
                         </tr>
                     </tbody>
                 </table>
